@@ -16,7 +16,7 @@ Also I am looking forward to adding some animation on click on "DONE" or "REMOVE
 
 ---
 
-[x] Made the app<br>
-[x] Made it fully-functional<br>
-[ ] Animations on button click<br>
-[ ] Cacheing the data
+- [x] Made the app<br>
+- [x] Made it fully-functional<br>
+- [ ] Animations on button click<br>
+- [ ] Cacheing the data
