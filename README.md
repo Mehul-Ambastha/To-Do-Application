@@ -1,13 +1,11 @@
 #This is a To-Do-Application
-
 Its not that special so there is not much to write about it
----
 ---
 
 Its just a basic *To-Do app* in which you add your next task/goal and it just keeps a track of it.
 
 Clicking on "DONE" button removes the task. Clicking on "REMOVE" also does the same thing.
----
+
 ---
 
 #UPDATE
