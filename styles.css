@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'montserrat';
+    src: url(fonts/Montserrat-ExtraBold.ttf) format('truetype'),
+         url(fonts/Montserrat-Regular.ttf) format('truetype'),
+         url(fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+::-webkit-input-placeholder{
+    font-family: 'montserrat';
+    font-weight: 400;
+}
+
+body{
+    font-family: 'montserrat';
+    width: 100vw;
+    overflow-x: hidden;
+    text-align: center;
+    padding-bottom: 50px;
+    background: #2e2b2e;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(89, 175, 255);
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: normal;
+    color: rgb(252, 132, 132);
+}
+
+label{
+    font-size: 30px;
+    color: rgb(50, 230, 59);
+    text-decoration: underline;
+    display: block;
+}
+
+input{
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 60%;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(59, 55, 55);
+    font-family: 'montserrat';
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid black;
+    box-shadow: -1px 1px 5px black inset,
+    1px -1px 5px black inset;
+}
+
+.content button{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: rgb(33, 126, 233);
+    color: white;
+    font-family: 'montserrat';
+    transition-duration: .5s;
+    box-shadow: -7px 7px 10px black,
+                0px 0px 8px black;
+}
+
+.content button:active{
+    box-shadow: -1px 1px 8px black inset,
+                1px -1px 8px black inset;
+}
+
+.tasks li{
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    min-width: 80%;
+    margin-bottom: 20px;
+    font-size: 35px;
+    background: #ebe3e3;
+    color: #000000;
+    padding: 10px 30px;
+}
+
+.tasks{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.task button{
+    font-size: 20px;
+    font-family: 'montserrat';
+    padding: 8px;
+}
+
+.done{
+    background: #1bc21b;
+}
+
+.remove{
+    background: rgb(250, 0, 0);
+}
+
+li.alert{
+    background: red;
+    font-size: 20px;
+}
+
+.task-actions{
+    margin:  0 auto !important;
+}
+
+footer{
+    height: fit-content;
+    padding: 10px 0;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: rgb(32, 30, 30);
+    font-size: 20px;
+    background: rgb(223, 146, 253);
+}
