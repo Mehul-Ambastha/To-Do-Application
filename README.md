@@ -6,13 +6,13 @@ Its just a basic _To-Do app_ in which you add your next task/goal and it just ke
 
 Clicking on "DONE" button removes the task. Clicking on "REMOVE" also does the same thing.
 
-# UPDATE
+### UPDATE
 
 I'm still working on it and I will soon add a **'cache-ing the data'** feature so that the tasks stay there even when you refresh the browser.
 
 Also I am looking forward to adding some animation on click on "DONE" or "REMOVE" button.
 
-## If you have any suggestions, please feel free to tell me
+## If you have any suggestions, please feel free to tell me.
 
 ---
 
